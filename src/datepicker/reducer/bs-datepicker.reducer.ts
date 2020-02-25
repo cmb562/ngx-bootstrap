@@ -364,6 +364,7 @@ function shiftViewDate(state: BsDatepickerState, action: Action): Date {
 }
 
 function getFormatOptions(state: BsDatepickerState): DatepickerFormatOptions {
+
   return {
     locale: state.locale,
 
